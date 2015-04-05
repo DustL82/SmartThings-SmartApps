@@ -14,14 +14,14 @@ preferences {
 		input "mains", "capability.switch", 
 			multiple: true, 
 			title: "Switches to fix...", 
-			required: true
+			required: false
 	}
     
     section("When these switches are toggled adjust the indicator in reverse (useful for Linear brand)...") { 
 		input "mains2", "capability.switch", 
 			multiple: true, 
 			title: "Switches to fix in reverse...", 
-			required: true
+			required: false
 	}
 
 }
